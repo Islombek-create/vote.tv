@@ -171,32 +171,27 @@ main {
 }
 
 /* About Me (Mening haqimda) konteyneri */
-.container2 {
-  max-width: 550px;           
-  min-height: auto;           
-  background-color: #16161a;  /* Kardlaringiz foni bilan bir xil to'q kulrang */
-  border-radius: 14px;        
-  margin: 0 auto 40px auto;   
-  padding: 40px 30px;         
+/* Mening haqimda */
+.about {
+  max-width: 550px;
+  background-color: #16161a;
+  border-radius: 14px;
+  margin: 0 auto 40px;
+  padding: 40px 30px;
   box-sizing: border-box;
-  font-family: sans-serif;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
-
-/* Sarlavha (Mening haqimda) stili */
-.container2 h2 {
-  color: #ffffff;             /* Siz xohlagandek toza oq rang */
-  text-align: center;         
+.about h2 {
+  color: #fff;
+  text-align: center;
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 26px;
 }
-
-/* Matn stili */
-.container2 p {
-  color: #cccccc;             /* Rasmda ko'rinib turgan och kulrang matn */
+.about p {
+  color: #ccc;
   font-size: 16px;
-  line-height: 1.6;           
+  line-height: 1.6;
   margin: 0;
 }
 
