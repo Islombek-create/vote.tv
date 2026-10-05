@@ -163,3 +163,116 @@ footer a:hover {
   min-height: 20px;
   margin: 12px 0 0;
 }
+/* Haqimda sektsiyasi uchun umumiy stil */
+.about-section {
+    padding: 60px 20px;
+    background-color: #141414; /* To'q qora fon */
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Konteynerni markazlashtirish */
+.container2 {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Sarlavha stili */
+.about-section h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #e50914; /* Netflix uslubidagi qizil rang */
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Sarlavha tagidagi chiziq */
+.about-section h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #e50914;
+    margin: 10px auto 0 auto;
+    border-radius: 2px;
+}
+
+/* Kontentni yonma-yon qilish (Flexbox) */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap; /* Mobil qurilmalarda pastga tushishi uchun */
+}
+
+/* Rasm bloki stili */
+.about-img {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-placeholder {
+    width: 250px;
+    height: 250px;
+    background: #222;
+    border: 2px solid #e50914;
+    border-radius: 50%; /* Dumaloq shakl */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    box-shadow: 0 10px 20px rgba(229, 9, 20, 0.2);
+}
+
+/* Matn bloki stili */
+.about-text {
+    flex: 2;
+    min-width: 300px;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+/* Haqimda blokidagi tugma stili */
+.about-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(229, 9, 20, 0.4);
+}
+
+.about-btn:hover {
+    background-color: #b20710;
+    transform: translateY(-3px); /* Tevaga bir oz ko'tariladi */
+    box-shadow: 0 6px 20px rgba(229, 9, 20, 0.6);
+}
+
+/* Mobil telefonlar uchun moslashuvchanlik (Responsive) */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .about-section h2 {
+        font-size: 28px;
+    }
+    
+    .about-text p {
+        font-size: 16px;
+    }
+}
