@@ -164,55 +164,52 @@ footer a:hover {
   margin: 12px 0 0;
 }/* Haqimda sektsiyasi uchun umumiy fon va joylashuv */
 /* Asosiy fon bo'limi */
+/* Asosiy fon bo'limi */
 main {
-  background-color: #0f0a2c;  /* Zamonaviy to'q-kino foni (binafsha-qora tusda) */
+  background-color: #0b0b0e;  /* Rasmda ko'rinib turgan haqiqiy to'q qora fon */
   padding: 40px 0;
 }
 
-/* About Me konteyneri */
+/* About Me (Mening haqimda) konteyneri */
 .container2 {
   max-width: 550px;           
   min-height: auto;           
-  background-color: #17113a;  /* Asosiy fondan sal ochroq, chiroyli kontrast beruvchi ichki fon */
+  background-color: #16161a;  /* Kardlaringiz foni bilan bir xil to'q kulrang */
   border-radius: 14px;        
   margin: 0 auto 40px auto;   
   padding: 40px 30px;         
   box-sizing: border-box;
   font-family: sans-serif;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); /* Blok ajralib turishi uchun yumshoq soya */
-  border: 1px solid #251c54;  /* Blok chetiga nafis chiziq */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 /* Sarlavha (Mening haqimda) stili */
 .container2 h2 {
-  color: #00d2ff;             /* Saytni jonlantiruvchi och ko'k / neon rang */
+  color: #ffffff;             /* Siz xohlagandek toza oq rang */
   text-align: center;         
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 26px;
-  letter-spacing: 0.5px;
 }
 
 /* Matn stili */
 .container2 p {
-  color: #e2e0eb;             /* Oqqa yaqin, juda oson o'qiladigan matn rangi */
+  color: #cccccc;             /* Rasmda ko'rinib turgan och kulrang matn */
   font-size: 16px;
   line-height: 1.6;           
   margin: 0;
-  text-align: center;         /* Sarlavha kabi matn ham o'rtada tursa chiroyli chiqadi */
 }
 
-/* Loyihalar bo'limining umumiy konteyneri */
+/* Loyihalar (Kinolar) bo'limining umumiy konteyneri */
 .container3 {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
-  background-color: #0f0a2c; /* 'main' foni bilan bir xil qilindi, uzilish bo'lmaydi */
+  background-color: transparent; /* Fon rangi main bilan bir xil bo'lishi uchun shaffof qilindi */
   
-  /* Ichidagi hamma kartochkalarni yonma-yon qilish */
+  /* Kardlarni to'g'ri joylashtirish */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
 }
-
