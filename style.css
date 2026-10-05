@@ -162,49 +162,4 @@ footer a:hover {
   font-size: 14px;
   min-height: 20px;
   margin: 12px 0 0;
-}/* Haqimda sektsiyasi uchun umumiy fon va joylashuv */
-/* Asosiy fon bo'limi */
-/* Asosiy fon bo'limi */
-main {
-  background-color: #0b0b0e;  /* Rasmda ko'rinib turgan haqiqiy to'q qora fon */
-  padding: 40px 0;
-}
-
-/* About Me (Mening haqimda) konteyneri */
-/* Mening haqimda */
-.about {
-  max-width: 550px;
-  background-color: #16161a;
-  border-radius: 14px;
-  margin: 0 auto 40px;
-  padding: 40px 30px;
-  box-sizing: border-box;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-}
-.about h2 {
-  color: #fff;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-size: 26px;
-}
-.about p {
-  color: #ccc;
-  font-size: 16px;
-  line-height: 1.6;
-  margin: 0;
-}
-
-/* Loyihalar (Kinolar) bo'limining umumiy konteyneri */
-.container3 {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  background-color: transparent; /* Fon rangi main bilan bir xil bo'lishi uchun shaffof qilindi */
-  
-  /* Kardlarni to'g'ri joylashtirish */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
 }
