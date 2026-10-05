@@ -12,8 +12,8 @@
   <span class="logo">Vote TV</span>
   <ul>
     <li><a href="#">Bosh sahifa</a></li>
-    <li><a href="#filmar">Filmlar</a></li>
-    <li><a href="#biz haqimizda">Reyting</a></li>
+    <li><a href="#filmlar">Filmlar</a></li>
+    <li><a href="#men haqimda">Reyting</a></li>
   </ul>
 </nav>
 <header>
@@ -25,7 +25,7 @@
     </div>
   </div>
 </header>
-<main class="container2">
+<main class="container2" id="filmlar">
   <article class="card">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl3xBOBM7XNRKiM5JaoYt3xuoPSgpGC1o3CYx3f09B5A&s" alt="The Mentalist posteri">
     <div class="card-body">
@@ -54,14 +54,25 @@
   </article>
 </main>
     <main>
-    <section>
-       <div class="container2" id="haqimda">
-
+    <section class="about-section" id="men haqimda">
+        <div class="container2">
             <h2>Mening haqimda</h2>
-            <p>Men Turg'unboyev Islombekman.Men 7-sinfman. Men dasturlash bo'yicha IT studentman.Men dasturlashni Junior It da organmoqdaman. Men matematik bilimim hamda interaktiv dasturlash ko'nikmalarim bor.</p>
+            <div class="about-content">
+                <!-- Agar rasm qo'ymoqchi bo'lsangiz (ixtiyoriy) -->
+                <div class="about-img">
+                    <div class="img-placeholder">📺</div>
+                </div>
+                
+                <div class="about-text">
+                    <p>Salom! Men ushbu platforma yaratuvchisiman. Mening maqsadim — O'zbekistondagi barcha kino va serial muxlislari uchun eng so'nggi premeralarni, yuqori sifatli reytinglar va qulay tomosha qilish imkoniyatini taqdim etishdir.</p>
+                    <p>Bu yerda siz o'zingiz yoqtirgan janrdagi filmlarni topishingiz, ularga baho berishingiz va eng sara loyihalardan birinchilardan bo'lib bahramand bo'lishingiz mumkin.</p>
+                    <a href="#filmlar" class="about-btn">Filmlarni ko'rish</a>
+                </div>
+            </div>
         </div>
     </section>
-    </main>
+</main>
+
 <main class="auth">
   <form class="auth-form" id registerForm>
     <h2>ozingiz uchun akkaunt yarating</h2>
