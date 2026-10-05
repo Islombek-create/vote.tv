@@ -163,57 +163,56 @@ footer a:hover {
   min-height: 20px;
   margin: 12px 0 0;
 }/* Haqimda sektsiyasi uchun umumiy fon va joylashuv */
-#haqimda {
-    background-color: #141414; /* To'q qora fon (kino saytlarbop) */
-    padding: 80px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Segoe UI', Roboto, sans-serif;
+/* Asosiy fon bo'limi */
+main {
+  background-color: #0f0a2c;  /* Zamonaviy to'q-kino foni (binafsha-qora tusda) */
+  padding: 40px 0;
 }
 
-/* Konteyner bloki stili */
-#haqimda .container2 {
-    max-width: 800px;
-    width: 100%;
-    background: #1f1f1f; /* Ichki blok foni */
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Soya effekti */
-    border-left: 5px solid #e50914; /* Chap tomondagi qizil chiziq */
-    text-align: left;
+/* About Me konteyneri */
+.container2 {
+  max-width: 550px;           
+  min-height: auto;           
+  background-color: #17113a;  /* Asosiy fondan sal ochroq, chiroyli kontrast beruvchi ichki fon */
+  border-radius: 14px;        
+  margin: 0 auto 40px auto;   
+  padding: 40px 30px;         
+  box-sizing: border-box;
+  font-family: sans-serif;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); /* Blok ajralib turishi uchun yumshoq soya */
+  border: 1px solid #251c54;  /* Blok chetiga nafis chiziq */
 }
 
 /* Sarlavha (Mening haqimda) stili */
-#haqimda h2 {
-    color: #ffffff;
-    font-size: 28px;
-    margin-top: 0;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+.container2 h2 {
+  color: #00d2ff;             /* Saytni jonlantiruvchi och ko'k / neon rang */
+  text-align: center;         
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 26px;
+  letter-spacing: 0.5px;
 }
 
-/* Matn (p tegi) stili */
-#haqimda p {
-    color: #cccccc; /* Och kulrang matn (o'qishga oson) */
-    font-size: 18px;
-    line-height: 1.7;
-    margin: 0;
+/* Matn stili */
+.container2 p {
+  color: #e2e0eb;             /* Oqqa yaqin, juda oson o'qiladigan matn rangi */
+  font-size: 16px;
+  line-height: 1.6;           
+  margin: 0;
+  text-align: center;         /* Sarlavha kabi matn ham o'rtada tursa chiroyli chiqadi */
 }
 
-/* Mobil telefonlar uchun moslashuvchanlik */
-@media (max-width: 600px) {
-    #haqimda {
-        padding: 40px 15px;
-    }
-    #haqimda .container2 {
-        padding: 25px;
-    }
-    #haqimda h2 {
-        font-size: 22px;
-    }
-    #haqimda p {
-        font-size: 16px;
-    }
+/* Loyihalar bo'limining umumiy konteyneri */
+.container3 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #0f0a2c; /* 'main' foni bilan bir xil qilindi, uzilish bo'lmaydi */
+  
+  /* Ichidagi hamma kartochkalarni yonma-yon qilish */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
+
